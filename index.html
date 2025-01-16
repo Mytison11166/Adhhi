@@ -1,32 +1,83 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Verification</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: auto;
+            height: 100%;
+            min-width: 100%;
+            min-height: 100%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        .content {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #555;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div style="text-align: center; margin-top: 50px;">
-        <h1>Welcome!</h1>
-        <p>Are you 18 years or older?</p>
-        <button onclick="yesClicked()">Yes</button>
-        <button onclick="noClicked()">No</button>
+    <!-- Background Video -->
+    <video autoplay muted loop>
+        <source src="https://mytison11166.github.io/Adhhi/47.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Content -->
+    <div class="content">
+        <h1>Are you 18+?</h1>
+        <button onclick="handleYes()">Yes</button>
+        <button onclick="handleNo()">No</button>
     </div>
 
+    <!-- Script -->
+    <script type="text/javascript" src="//pl25587418.profitablecpmrate.com/0f/95/ef/0f95ef1a30d7048f5b89024a69d63628.js"></script>
     <script>
-        function yesClicked() {
-            alert("Welcome to the site!");
-            // Add any further action for "Yes" response
+        function handleYes() {
+            window.location.href = "https://www.profitablecpmrate.com/k5x8a60e2?key=2911a9af39443deb01d93be6eff2db14";
         }
 
-        function noClicked() {
-            alert("You must be 18+ to access this site.");
-            // Add any further action for "No" response
+        function handleNo() {
+            alert("Sorry, you must be 18 or older to proceed.");
         }
     </script>
-
-    <!-- Your requested JavaScript code -->
-    <script type='text/javascript' src='//pl25587418.profitablecpmrate.com/0f/95/ef/0f95ef1a30d7048f5b89024a69d63628.js'></script>
 </body>
 </html>
